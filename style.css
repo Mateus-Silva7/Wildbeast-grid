@@ -25,6 +25,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  border-radius: 5px;
 }
 
 /*Grid geral*/
@@ -104,6 +105,26 @@ img {
 
 .content {
   grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/*Vai ocupar da primeira até a última coluna do grid*/
+
+.col-wide {
+    grid-column: 1 / -1;
+}
+
+.imagem-1 {
+    grid-row: span 2;
+    align-self: end;
+}
+
+.imagem-2 {
+    align-self: end;
 }
 
 /*Anuncios*/
