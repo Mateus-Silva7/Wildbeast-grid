@@ -99,6 +99,23 @@ img {
   margin-left: 30px;
 }
 
+@media (max-width: 760px) {
+  .header {
+    grid-template-columns:  auto;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+  .header nav a {
+    font-size: 1em;
+  }
+
+  .header li + li {
+    margin-left: 10px;
+  }
+}
+
 /*Sidenav*/
 
 .sidenav {
@@ -121,6 +138,12 @@ img {
 
 .sidenav li a:hover {
   background: #b07dfb;
+}
+
+@media (max-width: 760px) {
+  .sidenav ul {
+    display: flex;
+  }
 }
 
 /*Content*/
