@@ -24,7 +24,7 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   border-radius: 5px;
 }
 
@@ -195,6 +195,12 @@ img {
   padding: 30px;
 }
 
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+}
+
 /*Vai ocupar da primeira até a última coluna do grid*/
 
 .col-wide {
@@ -323,7 +329,9 @@ p {
   align-content: start;
   padding: 30px;
   gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
+
 
 /*Footer*/
 
