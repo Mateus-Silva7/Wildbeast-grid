@@ -41,7 +41,7 @@ Durante este projeto pratiquei:
 
 ## 🔗 Link do Projeto
 
-(https://mateus-silva7.github.io/Wildbeast-grid/)
+https://mateus-silva7.github.io/Wildbeast-grid/
 
 ## 👨‍💻 Autor
 
